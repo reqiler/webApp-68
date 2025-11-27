@@ -14,7 +14,7 @@ function e($s){ return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>โปรไฟล์นักศึกษา — <?php echo e($fullname); ?></title>
+  <title>Suteerapat</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <style>
     :root{
@@ -51,7 +51,7 @@ function e($s){ return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
       padding:28px; backdrop-filter:blur(12px) saturate(1.05); -webkit-backdrop-filter:blur(12px) saturate(1.05);
       border:1px solid var(--glass-border); position:relative; overflow:visible; transition:transform .22s, box-shadow .22s;
     }
-    .card:hover{ transform:translateY(-6px); box-shadow:0 14px 40px rgba(2,6,23,0.65), inset 0 1px 0 rgba(255,255,255,0.015); }
+    .card:hover{ transform:translateY(-3px); box-shadow:0 14px 40px rgba(2,6,23,0.65), inset 0 1px 0 rgba(255,255,255,0.015); }
 
     .profile-card{ display:flex; flex-direction:column; gap:18px; text-align:center; position:relative; }
     .avatar-wrap{width:132px; height:132px; margin:0 auto; position:relative; display:block;}
