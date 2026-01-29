@@ -1,6 +1,6 @@
 ﻿<?php
 require_once __DIR__ . '/db_connect.php';
-
+//
 $breeds = [];
 $sql = "SELECT id, name_th, name_en, description, characteristics, care_instructions, image_url FROM CatBreeds WHERE is_visible = 1 ORDER BY id DESC";
 $result = mysqli_query($conn, $sql);

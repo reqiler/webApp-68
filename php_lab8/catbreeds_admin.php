@@ -4,7 +4,7 @@ require_once __DIR__ . '/db_connect.php';
 $uploadDir = __DIR__ . '/uploads/';
 $errors = [];
 $success = '';
-
+//
 function e($value) {
     return htmlspecialchars((string)$value, ENT_QUOTES, 'UTF-8');
 }
